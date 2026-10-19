@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="Site-header">
+            <h1> Data Table</h1>
+            <nav class="nav-links">
+                <a href="validation.html">validation</a>
+                <a href="data.html"> Data Table</a>
+            </nav>
+        </header>
+        <main class="app">
+            <h1>Data Table Management</h1>
+            <div class="controls">
+                <input type="text" id="search" placeholder="Search by name or city...">
+                <button id="sortByName">Sort by Name</button>
+                <button id="sortByAge">Sort by Age</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody id="table"></tbody>
+            </table>
+        </main>
+        <footer>
+            <p>&copy; 2026 Data Table</p>
+        </footer>
+        <script src="js/data.js"></script>
+    </body>
+</html>
